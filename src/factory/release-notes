@@ -27,22 +27,7 @@
   step 6 -create the DosaPreHelper class and define common step 
   
   
-  // class room exercise 
-  //build factory design pattern 
-   pre requistie -
-   Step 1 - Launch the browser 
-   step 2 - Maximized
-   step 3- set implicit wait 
-   step 4 Load url ( hard code ) 
-   
-   step 2 to 4 are common 
-   
-   create enum -> chrome firefox,edge
-   create interface  browser - launchBrowser()
-   Impl class - (chrome/Edge) and use Logger 
-   Build factory class -- call all steptes --> First step ( base on swtich ) _ 3 commonstep
-   3 common step should be helper class
-   create a class TestBrowser-> do all 4 steps for given browser
+  
    
    
    
